@@ -1,62 +1,62 @@
 @charset "UTF-8";
-
-body{
-    background-color: cornsilk;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 20px;
+*{
+    margin: 0;
 }
-
 img{
+    margin: 0%;
     max-width: 200px;
     max-height: 200px;
-    width:auto;
-    height: auto;
-    align-self: auto;
-    padding: 0%;
 }
 
-h1{
-    color: black;
-    background-color:white;
-    text-align:right;
-}
-form{
-    margin: 0 auto;
-    width: 450px;
-    padding: 3em;
-    border: 2px solid rgb(255, 174, 0);
-    border-radius: 1em;
-    color:black;
-    }   
-form div + div{
-    margin-top: 1em;
-}
-label{
-    width: 200px;
-    text-align: center;
-    color: rgb(255, 0, 0);
+body{
+    font-family: 'Roboto Mono', 'monospace';
+    font-size: 20px;
+    margin:0;
     
 }
-input, textarea{
-    font: 1em sans-serif;
-    width: 450px;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    border: 1px solid #999;
-  
+header{
+    background-color:rgb(141, 163, 254);
+    padding: 5px;
+    color:black;
+    text-align: center;
+    align-items: center;
+    
 }
-input :focus, textarea:focus{
-    border-color:antiquewhite;
+main{
+    padding: 30px 30px;
+    
+    
 }
-textarea{
-    vertical-align: top;
-    height: 5em;
-    resize: vertical;
-}
-.button{
-    padding-left: 90px;
-}
-button{    
-    margin-left: .5em;
+.card{
+    background-color:rgb(255, 255, 255);
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 5px;    
 }
 
+input{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    outline: 0;
+    display: inline-block;
+}
+
+button{
+    
+    border: 2px;
+    padding: 8px;
+    background-color:rgb(194, 9, 236);
+    color: rgb(255, 255, 255);
+    border-radius: 3px;
+    font-weight: bold;    
+        
+}
+
+button:hover{
+    background-color: rgb(6, 0, 11);
+}
+.content{
+    margin-top: 15px;
+}
