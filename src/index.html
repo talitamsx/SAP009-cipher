@@ -6,36 +6,37 @@
        
     <link rel="stylesheet" href="style.css" />   
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
 
   </head>
   <body>
     <div id="root">
-
       <header>
         <h1>Projeto Cipher</h1>
         <img src="imagens/cifracesar.png" alt="Cipher">
       </header>
-      <main>
+      <br>
         <div class="title">
-          <h2>Codificar Mensagem</h2>
-          <Span>Codificando e Decoficando sua Mensagem</Span>
+          <h2>Codificando e Decoficando sua Mensagem</h2>
         </div>
 
         <div class="card">
           <div class="lineInput">
-            <label>Mensagem</label> <br>
+            <label>Digite sua Mensagem</label>
             <input class="texto" type="text" id="textoInput" placeholder="Digite sua mensagem">
             <label>Chave</label>
-            <input class="text" type="number" id="inputOffset" placeholder="Digite sua mensagem">   
-            <input id="outputMessage" class="resultado" value=""> Mensagem Codificada</div>       
-          </div><br>       
-          
-          <button id="codificar">Codificar</button>
-          <button id="decodificar">Decodificar</button>
-        </div>
-      </main>
+            <input class="chave" type="number" required id="inputOffset"><br>  
+            <label> Mensagem Codificada </label>
+            <input id="outputMessage" class="resultado" value="">    
+          </div>         
+        
+        </div> <br>
+        <button id="codificar">Codificar</button>
+        <button id="decodificar">Decodificar</button>
+      </div>
+
+      
     <script src="index.js" type="module"></script>
   </body>
 </html>

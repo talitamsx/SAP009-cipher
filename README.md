@@ -1,4 +1,10 @@
-# Cifra de César
+## README Cifra de César
+
+A cifra de César ou código de César é uma das das técinicas conhecidas de criptografia, o nome do método é em homenagem a Júlio César, que o usou para se comunicar com os seus generais. 
+É um tipo de cifra de substituição na qual cada letra do texto é substituída por outra, por exemplo, com uma troca de três posições, nessa caso A seria substituído por D, B se tornaria E, e assim por diante. 
+A criptografia é bastante utilizada principalmente na area de segurança, com a intenção de proteger os dados.
+
+Neste projeto podemos criptografar e descriptografar uma mensagem, esse seria o protótipo, contudo poderia facilmente ser utilizado para area de cadastro no qual os dados do cliente estariam criptografados e o cliente somente teria acesso as dados normais quando digitasse a sua senha pessoal.
 
 ## Índice
 
